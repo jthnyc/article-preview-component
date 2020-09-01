@@ -4,5 +4,4 @@
 
 ## Version 1
 
-![Version 1 attempt]
-(./design/screenshot1.png)
+![Version 1 attempt](./design/screenshot1.png)
