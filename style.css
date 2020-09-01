@@ -1,0 +1,74 @@
+html,
+body {
+  background: rgb(231, 234, 238);
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+}
+
+.preview-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 50% 50%;
+  margin: 250px;
+  border: 1px solid lightgray;
+  border-style: none;
+}
+
+.preview-image {
+  width: 480px;
+  height: 480px;
+  overflow: hidden;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.preview-image img {
+  margin: -30px 0px 0px -20px;
+}
+
+section {
+  display: inline-block;
+  padding: 60px;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+section p {
+  color: lightslategray;
+}
+
+.preview-bottom {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 70%;
+}
+
+.author-details {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 80px;
+  align-items: center;
+}
+
+.author {
+  font-size: 18px;
+}
+
+.date {
+  font-size: 18px;
+}
+
+.author-details button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
