@@ -1,8 +1,11 @@
-html,
 body {
   background: rgb(231, 234, 238);
   font-family: "Karla", sans-serif;
   font-size: 15px;
+  min-width: 270px;
+  width: 100%;
+  border: 1px solid gold;
+  margin: 0px;
 }
 
 .preview-container {
@@ -10,8 +13,9 @@ body {
   grid-template-rows: auto;
   grid-template-columns: 50% 50%;
   margin: 250px;
-  border: 1px solid lightgray;
-  border-style: none;
+  border: 5px solid lightgray;
+  /* border-style: none; */
+  width: 50%;
 }
 
 .preview-image {
